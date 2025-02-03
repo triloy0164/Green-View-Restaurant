@@ -76,10 +76,7 @@ header p a:hover{
     color:red;
     text-shadow: 3px 3px 30px #f5f6fa;
 }
-.menu ul li i:hover{
-    color: red;
-    cursor: pointer;
-}
+
 
 /*header end here*/
 
