@@ -1,0 +1,376 @@
+ /*full body start here*/
+
+ html{
+    scroll-behavior:smooth;
+ }
+ body{
+    top: -7px;;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height:auto;
+    background-color:#dcdde1;
+}
+.leg{
+   text-align: center;
+   font-weight: bold;
+}
+
+/*header start here*/
+
+header .menu ul{
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+header .menu ul li{
+    padding: 10px;
+    list-style: none;
+}
+header .menu ul  li a{
+    color: black;
+    text-decoration: none;
+}
+header .menu ul  li a:hover{
+color:red;
+}
+header .menu ul  li button{
+    border: 2px solid black ;
+    background-color:blue;
+    color: white;
+    border-radius: 20px;
+}
+header .menu ul  li input{
+    border-radius: 20px;
+    border: 1px solid black;
+}
+header .menu ul  li button:hover{
+    border-radius: 0px;
+    cursor: pointer;
+    background-color:green;
+}
+header .all{
+    position: fixed;
+    top: -10px;
+    width: 100%;
+    background-color: #fff200;
+    padding-left:5px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 30px red;
+    
+}
+header .all:hover{
+    padding-left:5px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 30px green ;
+    background-color:#95afc0;
+}
+header p a{
+    font-family:"Noto Serif", serif;
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+header p a:hover{
+    color:red;
+    text-shadow: 3px 3px 30px #f5f6fa;
+}
+.menu ul li i:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/*header end here*/
+
+/*Main start here*/
+
+/*row start here*/
+.row1{
+    display: flex;
+justify-content: center;
+padding-top: 50px;
+}
+.b1{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b1:hover{
+    background-color:#95afc0 ;
+}
+.b2{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b2:hover{
+    background-color:#95afc0 ;
+}
+.b3{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b3:hover{
+    background-color:#95afc0 ;
+}
+.b4{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b4:hover{
+    background-color:#95afc0  ;
+}
+main button{
+    background-color: aqua;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+main button:hover{
+    background-color: #fff200;
+    cursor: pointer;
+}
+.row1{
+    box-shadow: 2px 2px 20px black;
+}
+/*row1 end here*/
+
+/*row2 start here*/
+
+.row2{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    padding-top: 60px;
+}
+.b5{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b5:hover{
+    background-color:#95afc0 ;
+}
+.b6{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b6:hover{
+    background-color:#95afc0 ;
+}
+.b7{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b7:hover{
+    background-color:#95afc0 ;
+}
+.b8{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b8:hover{
+    background-color:#95afc0  ;
+}
+main button{
+    background-color: aqua;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+main button:hover{
+    background-color: #fff200;
+    cursor: pointer;
+}
+.row2{
+    box-shadow: 2px 2px 20px black;
+}
+
+/*row2 end here*/
+
+/*row3 start here*/
+
+.row3{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    padding-top: 60px;
+}
+.b9{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b9:hover{
+    background-color:#95afc0 ;
+}
+.b10{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b10:hover{
+    background-color:#95afc0 ;
+}
+.b11{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b11:hover{
+    background-color:#95afc0 ;
+}
+.b12{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b12:hover{
+    background-color:#95afc0  ;
+}
+main button{
+    background-color: aqua;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+main button:hover{
+    background-color: #fff200;
+    cursor: pointer;
+}
+.row3{
+    box-shadow: 2px 2px 20px black;
+}
+
+
+/*row3 end here*/
+
+/*row4 start here*/
+
+.row4{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    padding-top: 60px;
+}
+.b13{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b13:hover{
+    background-color:#95afc0 ;
+}
+.b14{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b14:hover{
+    background-color:#95afc0 ;
+}
+.b15{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b15:hover{
+    background-color:#95afc0 ;
+}
+.b16{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b16:hover{
+    background-color:#95afc0  ;
+}
+main button{
+    background-color: aqua;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+main button:hover{
+    background-color: #fff200;
+    cursor: pointer;
+}
+.row4{
+    box-shadow: 2px 2px 20px black;
+}
+
+/*row4 end here*/
+
+/*row5 start here*/
+
+.row5{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    padding-top: 60px;
+}
+.b17{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b17:hover{
+    background-color:#95afc0 ;
+}
+.b18{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b18:hover{
+    background-color:#95afc0 ;
+}
+.b19{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b19:hover{
+    background-color:#95afc0 ;
+}
+.b20{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff200;
+}
+.b20:hover{
+    background-color:#95afc0  ;
+}
+main button{
+    background-color: aqua;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+main button:hover{
+    background-color: #fff200;
+    cursor: pointer;
+}
+.row5{
+    box-shadow: 2px 2px 20px black;
+}
+
+/*row5 end here*/
+
+
+/*main end here*/
+
+footer{ 
+    background-color: #2d3436;
+    padding-bottom: 0;
+    justify-content: center;
+    display: flex;
+}
+.icons ul{
+    display: flex;
+}
+.icons ul li {
+    padding: 10px;
+    list-style: none;
+}
